@@ -1,11 +1,11 @@
 .imageWrapper {					// Sets the background image in the header area
 	height: 714px;
-	background: 
+	background:
 		linear-gradient(
-		rgba($image-overlay-color, $image-overlay-transparency), 
+		rgba($image-overlay-color, $image-overlay-transparency),
 		rgba($image-overlay-color, $image-overlay-transparency)
 		   ),
-		
+
 		url($header-image);
 
 	background-repeat: no-repeat;
@@ -29,7 +29,7 @@
 	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: 115px 876px auto auto;
 	grid-column-gap: 30px;
-	grid-template-areas: 
+	grid-template-areas:
 		"h h h h h h h h h h h h"
 		"p p p p p i i i i i i i"
 		"c c c c c c c c c c c c"
@@ -49,7 +49,7 @@
 		grid-column-gap: 0px;
 		grid-template-columns: 1;
 		grid-template-rows: 115px auto auto auto auto;
-		grid-template-areas: 
+		grid-template-areas:
 			"h h h h h h h h h h h h"
 			"i i i i i i i i i i i i"
 			"p p p p p p p p p p p p"
@@ -143,7 +143,7 @@ nav > ul li a:active {
 		justify-content: center;
 	}
 
-} 
+}
 
 .appIconShadow {
 	display: flex;
@@ -189,13 +189,13 @@ nav > ul li a:active {
 		margin-top: 30px;
 		text-align: center;
 	}
-	
+
 	.appPrice {
 		margin-top: 13px;
 		text-align: center;
 	}
-	
-} 
+
+}
 
 .appDescriptionContainer {
 	font-size: 2.5rem;
@@ -216,8 +216,8 @@ nav > ul li a:active {
 	.appDescription {
 		text-align: center;
 	}
-	
-} 
+
+}
 
 .downloadButtonsContainer {
 	display: inline-block;
@@ -230,8 +230,8 @@ nav > ul li a:active {
 	.downloadButtonsContainer {
 		text-align: center;
 	}
-	
-} 
+
+}
 
 .playStore {
 	height: 75px;
@@ -244,8 +244,8 @@ nav > ul li a:active {
 		margin-right: 24px;
 		margin-bottom: 0px;
 	}
-	
-} 
+
+}
 
 @media only screen and (max-width: 528px) {
 
@@ -253,8 +253,8 @@ nav > ul li a:active {
 		margin-right: 0px;
 		margin-bottom: 24px;
 	}
-	
-} 
+
+}
 
 .appStore {
 	height: 75px;
@@ -269,12 +269,12 @@ nav > ul li a:active {
 	background-image: url($device-color);
 	background-size: 400px auto;
 	background-repeat: no-repeat;
-	margin-top: 68px;
+	margin-top: 40px;
 }
 
 .iphoneScreen {
 	width: 349px;
-	-webkit-clip-path: url(#screenMask);
+	//-webkit-clip-path: url(#screenMask);
 	clip-path: url(#screenMask);
 	margin-left: 26px;
 	margin-top: 23px;
@@ -297,13 +297,13 @@ nav > ul li a:active {
 @media only screen and (max-width: 1070px) {
 
 	.iphonePreview {
-		background-size: 370px auto;
+		background-size: 500px auto;
 	}
 
 	.iphoneScreen {
-		width: 322px;
-		margin-left: 24px;
-		margin-top: 22px;
+		width: 250px;
+		margin-left: 0;
+		margin-top: 11px;
 	}
 
 	.videoContainer {
@@ -312,13 +312,13 @@ nav > ul li a:active {
 		margin-left: 24px;
 		margin-top: 22px;
 	}
-	
+
 	.videoContainer > video {
 		width: 322px;
 		height: 698px;
 	}
-	
-} 
+
+}
 
 @media only screen and (max-width: 992px) {
 
@@ -326,18 +326,17 @@ nav > ul li a:active {
 		display: flex;
 		background-size: 260px auto;
 		background-position: center 0;
-		margin-top: 47px;
+		margin-top: 40px;
 		justify-content: center;
 		padding-bottom: 75px;
 	}
 
 	.iphoneScreen {
-		width: 226px;
-		height: 488px;
-		-webkit-clip-path: url(#screenMask);
+		height: 1000px;
+		//-webkit-clip-path: url(#screenMask);
 		clip-path: url(#screenMask);
 		margin: 0px;
-		margin-top: 17px;
+		margin-top: 11px;
 	}
 
 	.videoContainer {
@@ -351,8 +350,8 @@ nav > ul li a:active {
 		width: 226px;
 		height: 488px;
 	}
-	
-} 
+
+}
 
 
 // Feature List
@@ -377,7 +376,7 @@ nav > ul li a:active {
 }
 
 .feature:nth-child(-n+3) {
-    padding-top: 0px;   
+    padding-top: 0px;
 }
 
 .feature:nth-child(3n) {
@@ -436,22 +435,22 @@ nav > ul li a:active {
 	}
 
 	.feature:nth-child(-n+3) {
-		padding-top: 41px;   
+		padding-top: 41px;
 	}
 
 	.feature:nth-child(1) {
-		padding-top: 0px;   
+		padding-top: 0px;
 	}
 
 	.feature:nth-child(3n) {
 		padding-right: 15px;
 	}
-	
+
 	.feature:nth-child(3n+1) {
 		padding-left: 15px;
 	}
-	
-} 
+
+}
 
 
 
@@ -481,7 +480,7 @@ footer {
 }
 
 @media only screen and (max-width: 992px) {
-	
+
 	.footerText {
 		color: $footer-text-color;
 		display: block;
@@ -491,13 +490,13 @@ footer {
 		padding-top: 54px;
 		padding-bottom: 61px;
 	}
-	
+
 	.footerIcons {
 		padding-bottom: 70px;
 		display: flex;
 	}
-	
-} 
+
+}
 
 .hidden {
 	display: none;
