@@ -1,17 +1,17 @@
 #page title
-page_title                                : AR Lucida                                      # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : Mobile Lucida                                      # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
 ios_app_id                                :                                 # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
-playstore_link                            : https://play.google.com/store/apps/details?id=com.arlucida.arlucida                                          # Enter Google Play Store URL.
+playstore_link                            : https://play.google.com/store/apps/details?id=com.arlucida.mobilelucida   # Enter Google Play Store URL.
 presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : AR Lucida                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 : $3.99                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_name                                  : Mobile Lucida                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 : $4.99                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : Fall in love with drawing again.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
@@ -20,12 +20,12 @@ enable_smart_app_banner                   : true                                
 
 # Information About Yourself
 your_name                                 : Vincent Moeykens
-your_link                                 : https://arlucida.com
+your_link                                 : https://mobilelucida.com
 your_city                                 : Burlington, Vermont
 email_address                             : support@arlucida.com
 facebook_username                         :
-instagram_username                        : arlucida
-twitter_username                          : arlucida
+instagram_username                        : mobilelucida
+twitter_username                          : mobilelucida
 github_username                           :
 youtube_username                          :
 
@@ -35,19 +35,19 @@ youtube_username                          :
 features                                  :
 
   - title                                 : Draw Beautiful Pictures
-    description                           : No experience required; if you can trace, you can draw! AR Lucida lowers the entry bar for becoming an artist.
+    description                           : No experience required; if you can trace, you can draw! Mobile Lucida lowers the entry bar for becoming an artist.
     fontawesome_icon_name                 : magic
 
   - title                                 : Get Proportions Perfect
-    description                           : If you're an experienced artist, AR Lucida is for you too! Have trouble with getting your starting proportions correct? AR Lucida helps you nail them every time.
+    description                           : If you're an experienced artist, Mobile Lucida is for you too! Have trouble with getting your starting proportions correct? AR Lucida helps you nail them every time.
     fontawesome_icon_name                 : mobile
 
   - title                                 : Filters For Every Piece
-    description                           : Whether it is edge detecting, posterizing, or breaking down the color pallette, AR Lucida has filters to help you on every project!
+    description                           : Whether it is edge detecting, posterizing, or breaking down the color pallette, Mobile Lucida has filters to help you on every project!
     fontawesome_icon_name                 : play-circle
 
   - title                                 : Draw Like the Masters
-    description                           : Camera Obscura devices have been used for centuries by artists (even Vermeer used one!). AR Lucida implements this same idea but utilizing modern technology!
+    description                           : Camera Obscura devices have been used for centuries by artists (even Vermeer used one!). Mobile Lucida implements this same idea but utilizing modern technology!
     fontawesome_icon_name                 : sync
 
 #  - title                                 : Easy to Tweak
