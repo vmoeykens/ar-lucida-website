@@ -297,12 +297,14 @@ nav > ul li a:active {
 @media only screen and (max-width: 1070px) {
 
 	.iphonePreview {
-		background-size: 500px auto;
+		visibility: hidden;
+		padding-bottom: 75px;
+
 	}
 
 	.iphoneScreen {
 		width: 250px;
-		margin-left: 0;
+		margin: 0px;
 		margin-top: 11px;
 	}
 

@@ -1,6 +1,7 @@
 .bundle
 .sass-cache
-_site
+_site/*
+!_site/.gitkeep
 Gemfile
 Gemfile.lock
 mobile-app-landing-page.gemspec
